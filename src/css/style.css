@@ -92,6 +92,7 @@ height:30px;
 background-color: var(--bg-button-color);
 color: white;
 padding:10px;
+cursor:pointer;
 
 }
 
@@ -103,19 +104,18 @@ padding:10px;
   
 }
 
-main #read-the-news{
+main .read-the-news{
   color: var(--bg-button-color);
   margin-top: 4rem;
   font-weight: 700;
   text-decoration: none;
   display:block;
-  line-height: 2rem;
- 
+  margin-right: 10px;
+  
 
 }
 
 #redirect-link{
-  
   display: flex;
   align-self:center;
   align-items: center;
